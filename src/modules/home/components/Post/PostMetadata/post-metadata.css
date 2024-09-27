@@ -1,0 +1,46 @@
+.post-metadata-container {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+}
+  
+
+  .post-metadata-user {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  post-metadata-verified {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: blue;
+    }
+  
+
+  .post-metadata-user-time {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    color: #b4b0b0;
+  }
+
+  .post-metadata-user-time-username::after {
+      content: " •";
+      color: #b4b0b0;
+      font-size: 12px;
+    }
+  
+
+
+.post-metadata-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-top: none;
+}

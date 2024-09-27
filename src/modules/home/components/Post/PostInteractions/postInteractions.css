@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgb(154, 151, 151);
+}
+
+.container-comments {
+  align-items: center;
+  display: flex;
+  
+}
+
+.container-retweets {
+  align-items: center;
+  display: flex;
+}
+
+.container-likes {
+  align-items: center;
+  display: flex;
+}
+
+.container-stats {
+  align-items: center;
+  display: flex;
+}
+
+p {
+  margin-left: 12px;
+  font-size: 14px;
+}
